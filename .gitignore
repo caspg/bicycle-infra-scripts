@@ -1,0 +1,5 @@
+*.pbf
+*.mbtiles
+tmp
+data/*
+data
