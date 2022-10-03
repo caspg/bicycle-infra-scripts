@@ -3,11 +3,11 @@
 # Informations about bicycle infrastructure tags:
 # https://wiki.openstreetmap.org/wiki/Bicycle
 
-# rm -rf data
-# mkdir data
+rm -rf data
+mkdir data
 
 # https://download.geofabrik.de/europe/poland.html
-# curl https://download.geofabrik.de/europe/poland-latest.osm.pbf -o data/input.osm.pbf
+curl https://download.geofabrik.de/europe/poland-latest.osm.pbf -o data/input.osm.pbf
 # curl https://download.geofabrik.de/europe/poland/pomorskie-latest.osm.pbf -o data/input.osm.pbf
 
 osmium tags-filter data/input.osm.pbf \
